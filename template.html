@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cite</title>
+    <link rel="stylesheet" href="style/SimpleCiteList.css">
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <script src="script/jquery-3.3.1.js"></script>
+    <script src="script/SimpleCiteList.js"></script>
+</head>
+<body>
+    <!-- data-ct 表示 data cite target-->
+    <p>TeX, stylized within the system as TEX, is a typesetting system (or "formatting system") designed and mostly written by Donald Knuth<span data-ct="foo"> and released in 1978.</p>
+
+    <!-- List of Cites -->
+    <div style="display: none;">
+        <span id="foo">"Per Bothner (assistant of Knuth) discusses authorship", Knuth definitely wrote most of the code himself, at least for the Metafont re-write, for which I have pe[r]sonal knowledge.  However, some of his students (such as Michael Plass and John Hobby) did work on the algorithms used in TeX and Metafont. <a href="https://gcc.gnu.org/ml/java/1999-q2/msg00419.html">https://gcc.gnu.org/ml/java/1999-q2/msg00419.html</a></span>
+    </div>
+</body>
+</html>
