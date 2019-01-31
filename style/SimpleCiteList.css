@@ -21,8 +21,9 @@ a:focus {}
     white-space: nowrap; /* let superscript no line break */
 }
 
+/* 调节数字和左边的距离 */
 #cites {
-    margin-left: 1em; /* 调节数字和左边的距离 */
+    margin-left: 1em;
 }
 
 /* cite list样式: outside */

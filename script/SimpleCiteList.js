@@ -33,6 +33,7 @@ $(document).ready(
         for (let i = 0; i < citesOrdered.length; i++) {
             let id = citesOrdered[i];
             let ttt = document.createElement('li');
+            // todo: Uncaught TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
             ttt.appendChild(document.getElementById(id));
             document.getElementById("cites").appendChild(ttt);
         }
