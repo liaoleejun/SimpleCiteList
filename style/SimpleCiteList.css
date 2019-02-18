@@ -26,6 +26,11 @@ a:focus {}
     margin-left: 1em;
 }
 
+#cites a {
+    word-break: break-all;
+    hyphens: none;
+}
+
 /* cite list样式: outside */
 .cite_list_outside ol {
     list-style: none;

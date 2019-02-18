@@ -1,0 +1,5 @@
+对于方框然后索引的list, 搜索了很久, 也想了很久, 才搞清楚了大致原理。最后突然想到
+citesOrdered.length分情况来讨论。
+
+[1] blabla
+[2] blabla
