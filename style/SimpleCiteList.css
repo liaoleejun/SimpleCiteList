@@ -7,7 +7,7 @@ a:focus {}
 
 /* cite 设置为小上标样式(small superscript), 并且不改变行高; 设置颜色不和正文有太大差
    异, 即不影响阅读 */
-.cite a {
+a.cite {
     font-size: 70%;
     color: #0E48AA;
     line-height: 1;

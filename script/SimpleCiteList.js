@@ -15,9 +15,7 @@ $(document).ready(
             let citeRef = cites[i].getAttribute('href');
             // 给引用标上号（注意数组是从0开始下标，所以加1）
             let num = citesRefOrdered.indexOf(citeRef) + 1;
-            cites[i].innerHTML = '<a>[' + num + ']</a>';
-            // 引用设置锚点
-            cites[i].firstChild.setAttribute('href', citeRef);
+            cites[i].innerHTML = '[' + num + ']';
         }
 
         /* 3. 生成排好序的引用列表，附在最后 */
